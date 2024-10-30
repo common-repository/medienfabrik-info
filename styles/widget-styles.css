@@ -1,0 +1,96 @@
+	#mi-container{
+		height:650px;
+		overflow: scroll;
+	}
+	
+	#mi-heading{
+		width: 66%;
+		float: left;
+		text-align: center;
+		padding-top:10px;
+	}
+
+	#mi-heading > h2 {
+		font-size: 16px;
+	}
+
+	#mi-logo{
+		width: 120px;
+		float: right;
+	}
+	
+	#mi-content{
+		margin-top:10px;
+		width:100%;
+		float:left;
+		display:block;
+	}
+	
+	#mi-footer{
+		background-color: #005f71;
+		bottom: 0px;
+		position: absolute;
+		color: #FFFFFF;
+		width:100%;
+		margin-left: -12px;
+		padding-top: 10px;
+		padding-bottom:10px;
+	}
+	
+	.mi-articletitle{
+		font-size:15px;
+	}
+
+	.mi-mehrlesen{
+		text-align: right;
+		margin-right:10px;
+	}
+	
+	.mi-datum{
+		float:left;
+		margin:3px;
+	}
+	
+	.mi-footer-link{
+		color:#ffffff;
+		margin-left:20px;
+	}
+
+
+
+@media (max-width: 1020px) { 
+	#mi-logo{
+		width:80px;
+	}
+	
+	#mi-logo > img {
+		width:80px;
+	} 
+}
+
+@media (max-width: 600px) { 
+	#mi-heading > h2 {
+		font-size: 14px;
+	}
+	
+	
+}
+
+
+@media (max-width: 300px) { 
+	#mi-logo{
+		width:60px;
+	}
+	
+	#mi-logo > img {
+		width:60px;
+	} 
+}
+
+
+
+
+
+
+
+
